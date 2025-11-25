@@ -1,0 +1,46 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "DiLifetimesDemo",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/diagnostics/lifetimes": {
+      "get": {
+        "tags": [
+          "DianosCrontroller"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/scoped/compare": {
+      "get": {
+        "tags": [
+          "Scoped"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/singleton/safe-scoped": {
+      "get": {
+        "tags": [
+          "Singleton"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "ContainingType": "DiLifetimesDemo.Controllers.DianosCrontroller",
+    "Method": "GetLifetimes",
+    "RelativePath": "api/diagnostics/lifetimes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DiLifetimesDemo.Controllers.ScopedController",
+    "Method": "CompareScopes",
+    "RelativePath": "api/scoped/compare",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DiLifetimesDemo.Controllers.SingletonController",
+    "Method": "GetSafeScoped",
+    "RelativePath": "api/singleton/safe-scoped",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
